@@ -1,0 +1,17 @@
+footer {
+  background-color: #fff;
+  border: 1px solid #ababab;
+  text-align: center;
+  padding: 40px;
+  line-height: 1.4;
+}
+footer p {
+  color: #ababab;
+}
+footer a {
+  text-decoration: none;
+  color: #3d83df;
+}
+footer a:hover {
+  text-decoration: underline;
+}

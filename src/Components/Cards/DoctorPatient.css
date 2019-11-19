@@ -1,0 +1,82 @@
+.patient-doctor {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-around;
+  position: relative;
+  margin: 0 50px 0 100px;
+  width:85%;
+}
+.card {
+  margin: 10px;
+  background-color: #00b39b;
+  height: 500px;
+  border-radius: 10px;
+  color: white;
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+}
+.card-doctor {
+  background-color: #3d83df;
+}
+.card h3 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  font-size: 32px;
+}
+.img-patient-doctors {
+  width: 400px;
+}
+.img-doctors {
+  position: absolute;
+  top: 215px;
+  right: -137px;
+}
+.img-patient {
+  position: absolute;
+  top: 238px;
+  left: 280px;
+}
+
+.btn-patient {
+  width: 200px;
+  padding: 12px 31px;
+  border-radius: 4px;
+  
+  font-size: 12px;
+  line-height: 25px;
+  margin-left: 50px;
+}
+
+.img_link {
+  padding: 15px;
+  margin: 18px;
+}
+.img_link:hover {
+  fill: #00b39b;
+  opacity: 1;
+}
+.images-links {
+  fill: #fdfcfc;
+  padding: 19px;
+  margin: 18px;
+  opacity: 0.6;
+}
+.h3_docplanner {
+  color: #00b39b;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 1.625em;
+  padding-top: 17px;
+  padding-left: 104px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+.main-docplanner {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
